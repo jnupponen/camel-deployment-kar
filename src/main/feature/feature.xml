@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.1" name="camel-deployment-karaf-features">
+    <repository>mvn:org.apache.camel.karaf/apache-camel/2.15.3/xml/features</repository>
+
+    <feature name="camel-deployment-karaf-feature" version="1.0-SNAPSHOT"
+         description="Kar deployable features.">
+        
+        <feature version="2.15.3">camel-core</feature>
+        <feature version="2.15.3">camel-spring</feature>
+    </feature>
+</features>
